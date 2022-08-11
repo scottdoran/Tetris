@@ -1,0 +1,47 @@
+.document {
+    background-color: rgb(8, 8, 8);    
+}
+
+#score {
+    color: rgb(81, 255, 0);
+}
+
+#scoreLabel {
+    color: rgb(81, 255, 0);
+}
+
+.container {
+    display: flex;    
+    justify-content: center;
+}
+
+.grid {
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(152, 244, 229, 0.795);
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;       
+}
+
+.tetromino {
+    background-color: blue;        
+}
+
+.mini-grid {
+    margin-left: 40px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(243, 240, 142);
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
